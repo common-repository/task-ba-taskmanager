@@ -1,0 +1,88 @@
+.task-ba-menu a {
+
+
+text-decoration: none;
+color: grey;
+}
+
+
+ul.task-ba-menu {
+list-style-type: none;
+
+text-decoration: none;
+
+
+
+
+
+}
+
+
+ul.task-ba-menu li.active {
+  
+    border-bottom:0px solid #26383D;
+}
+
+ul.task-ba-menu li.inactive {
+   
+    border-bottom:1px solid #26383D;
+}
+
+ul.task-ba-menu li {
+font-size: 18px;
+    padding-left:5px;
+    padding-right:5px;
+	padding-top:5px;
+    float:left;
+    border-top:1px solid #26383D;
+    border-left:1px solid #26383D;
+    border-right:1px solid #26383D; 
+    height: 30px;
+    
+    
+}
+
+ul.task-ba-menu li a:visited {
+
+    color: grey;
+}
+
+ul.task-ba-menu li.active a:visited{
+
+    color: #0073A5;
+}
+
+ul.task-ba-menu div {
+    padding-left:5px;
+    float:left;
+    padding-right:5px;
+     height: 36px;
+    
+	width:50px;
+    border-bottom:1px solid #26383D;
+}
+
+
+
+
+
+a.task-ba-menu-end {
+
+float:none;
+}
+
+div.task-ba-menu-end {
+
+float:none;
+}
+
+#task-ba-new-task, #task-ba-all-tasks, #task-ba-important-tasks{
+padding-top: 50px;
+display: block;
+}
+
+
+#table-task-ba-options tr td {
+padding-right: 35px;
+padding-bottom: 20px;
+}
